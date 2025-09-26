@@ -1,1 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Final Year Report Generator</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container">
+<h1>Final Year Project Report Generator (Flask)</h1>
+<form action="/generate" method="post" enctype="multipart/form-data">
+<label for="proposal">Upload original proposal (PPTX):</label><br>
+<input type="file" id="proposal" name="proposal" accept=".pptx" required><br><br>
 
+
+<label for="template_json">Structure template (JSON) — optional:</label><br>
+<textarea id="template_json" name="template_json" rows="10" cols="80">{{ example_template }}</textarea><br>
+
+
+<label for="notes">Extra notes / results:</label><br>
+<textarea id="notes" name="notes" rows="6" cols="80" placeholder="Add experimental results, dataset details, or extra guidance here."></textarea><br>
+
+
+<button type="submit">Generate Report</button>
+</form>
+
+
+<hr>
+<h3>Example structure template</h3>
+<pre>{{ example_template }}</pre>
+</div>
+</body>
+</html>
