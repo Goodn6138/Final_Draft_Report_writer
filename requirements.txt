@@ -1,1 +1,6 @@
-
+flask
+python-pptx
+python-docx
+openai
+gunicorn
+werkzeug
