@@ -1,1 +1,20 @@
-
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Report Generated</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<div class="container">
+<h1>Generated Report</h1>
+<a href="{{ download_path }}"><button>Download .docx</button></a>
+<hr>
+{% for title, content in sections.items() %}
+<h2>{{ title }}</h2>
+<p>{{ content }}</p>
+{% endfor %}
+</div>
+</body>
+</html>
