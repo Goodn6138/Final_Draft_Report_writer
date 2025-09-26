@@ -1,1 +1,6 @@
-
+body { font-family: Arial, sans-serif; background: #f7f7f7; color: #222; }
+.container { max-width: 900px; margin: 40px auto; background: #fff; padding: 24px; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+textarea { width: 100%; font-family: monospace; }
+button { padding: 10px 16px; border-radius: 6px; border: none; background: #2563eb; color: white; cursor: pointer; }
+button:hover { opacity: 0.95; }
+pre { background: #111; color: #d1d5db; padding: 12px; border-radius: 6px; overflow: auto; }
