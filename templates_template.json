@@ -1,1 +1,56 @@
+{
+  "title": "Final Year Project Report",
+  "sections": [
+    {
+      "title": "Title Page",
+      "guidance": "Project title, student name, supervisor, institution",
+      "words": 50
+    },
+    {
+      "title": "Abstract",
+      "guidance": "200-word summary of aims, methods, results, conclusion",
+      "words": 200
+    },
+    {
+      "title": "Introduction",
+      "guidance": "Background and project motivation",
+      "words": 500
+    },
+    {
+      "title": "Literature Review",
+      "guidance": "Summarize related work and position your project",
+      "words": 800
+    },
+    {
+      "title": "Methodology",
+      "guidance": "Describe hardware, software, experimental setup",
+      "words": 800
+    },
+    {
+      "title": "Results",
+      "guidance": "Present your results, tables, and observations",
+      "words": 600
+    },
+    {
+      "title": "Discussion",
+      "guidance": "Interpret results, compare with literature, explain implications",
+      "words": 600
+    },
+    {
+      "title": "Conclusion",
+      "guidance": "Summarize findings, limitations, and possible future work",
+      "words": 300
+    },
+    {
+      "title": "References",
+      "guidance": "List all cited sources in proper academic format",
+      "words": 0
+    },
+    {
+      "title": "Appendices",
+      "guidance": "Include raw data, extra figures, code snippets if needed",
+      "words": 0
+    }
+  ]
+}
 
