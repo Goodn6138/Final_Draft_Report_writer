@@ -19,7 +19,7 @@ def extract_text_from_pptx(path):
     prs = Presentation(path)
     texts = []
     for slide in prs.slides:
-        for shape in slide.shapes:
+         for shape in slide.shapes:
             try:
                 if shape.has_text_frame:
                     texts.append(shape.text)
